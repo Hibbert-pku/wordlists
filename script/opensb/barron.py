@@ -2,6 +2,8 @@
     with respect to Magoosh GRE flashcards and New GRE Upgrade
 '''
 import json
+import sys
+sys.path.append('./')
 from util.common import load_wordlist
 
 magoosh_path = 'wordlists/magoosh-gre'
